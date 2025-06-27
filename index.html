@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles que Inspiran</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #ffe5ec;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #c9184a;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ffccd5;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #8b0000;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .galeria img {
+      width: 100%;
+      max-width: 250px;
+      margin: 0.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 0.7rem;
+      background-color: #ffb3c1;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #ffe5ec;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Detalles que Inspiran</h1>
+    <p>Papelería personalizada, recuerdos y más</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenid@</h2>
+    <p>Creaciones únicas para momentos especiales. Personalizamos cada detalle para que tus recuerdos sean inolvidables.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Invitaciones personalizadas</li>
+      <li>Cuadernos y libretas</li>
+      <li>Photobooks</li>
+      <li>Recuerdos para eventos</li>
+      <li>Impresiones en alta calidad</li>
+    </ul>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>Galería</h2>
+    <img src="https://via.placeholder.com/250x200?text=Producto+1" alt="Producto 1">
+    <img src="https://via.placeholder.com/250x200?text=Producto+2" alt="Producto 2">
+    <img src="https://via.placeholder.com/250x200?text=Producto+3" alt="Producto 3">
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Escribe tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Detalles que Inspiran | Síguenos en redes sociales</p>
+  </footer>
+</body>
+</html>
